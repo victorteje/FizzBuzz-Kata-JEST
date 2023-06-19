@@ -1,5 +1,5 @@
 const { test } = require('node:test');
-const fizzBuzz = require('./fizzBuzz');
+const { fizzBuzz } = require('./fizzBuzz');
 
 test('Return Fizz if number is a mutiplier of 3', () => {
     expect(fizzBuzz(6)).toBe("Fizz");

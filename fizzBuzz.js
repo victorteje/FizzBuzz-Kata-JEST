@@ -6,6 +6,7 @@ const fizzBuzz = () => {
 
         if (i % 3 == 0 && i % 5 == 0) {
             console.log("FizzBuzz");
+            // return "Fizzbuzz";
         }
 
         else if (i % 3 == 0) {
@@ -24,4 +25,4 @@ const fizzBuzz = () => {
 
 fizzBuzz();
 
-// module.exports = fizzBuzz;
+// module.exports = { fizzBuzz };
