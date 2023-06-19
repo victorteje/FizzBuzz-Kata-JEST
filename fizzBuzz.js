@@ -4,25 +4,28 @@ const fizzBuzz = () => {
     
     for (i; i <= 15; i++) {
 
-        if (i % 3 == 0 && i % 5 == 0) {
+        if (i % 3 === 0 && i % 5 === 0) {
             console.log("FizzBuzz");
-            // return "Fizzbuzz";
+            return "FizzBuzz";
         }
 
-        else if (i % 3 == 0) {
+        else if (i % 3 === 0) {
             console.log("Fizz");
+            return "Fizz";
         }
         
-        else if (i % 5 == 0) {
+        else if (i % 5 === 0) {
             console.log("Buzz");
+            return "Buzz";
         }
 
         else {
             console.log(i);
+            return i;
         }
     }
 }
 
-fizzBuzz();
+// fizzBuzz();
 
-// module.exports = { fizzBuzz };
+module.exports = { fizzBuzz };
