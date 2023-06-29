@@ -4,8 +4,11 @@ Basic Fizz Buzz test.
 
 ## Install Jest:
 
-"npm install --save-dev jest"
-
+```sh
+npm install --save-dev jest
+```
 ## Run the test:
 
-"npm test"
+```sh
+npm test
+```
