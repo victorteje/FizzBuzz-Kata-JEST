@@ -1,13 +1,16 @@
-// const { fizzBuzz } = require('./fizzBuzz');
+const { fizzBuzz } = require('./fizzBuzz');
 
-// test('Return Fizz if number is a mutiplier of 3', () => {
-//     expect(fizzBuzz()).toBe("Fizz");
-// });
-
-// test('Return Buzz if number is a mutiplier of 5', () => {
-//     expect(fizzBuzz()).toBe("Buzz");
-// });
-
-// test('Return FizzBuzz if number is a mutiplier of both 3 and 5', () => {
-//     expect(fizzBuzz()).toBe("FizzBuzz");
-// });
+describe('FizzBuzz', () => {
+    test('should return Fizz', () => {
+        let n = 3;
+        expect(fizzBuzz(n)).toBe("Fizz");
+    });
+    test('should return Buzz', () => {
+        let n = 5;
+        expect(fizzBuzz(n)).toBe("Buzz");
+    });
+    test('should return FizzBuzz', () => {
+        let n = 15;
+        expect(fizzBuzz(n)).toBe("FizzBuzz");
+    });
+});
