@@ -2,10 +2,10 @@
 
 Basic Fizz Buzz test.
 
-Install Jest:
+## Install Jest:
 
 "npm install --save-dev jest"
 
-Run the test:
+## Run the test:
 
 "npm test"
