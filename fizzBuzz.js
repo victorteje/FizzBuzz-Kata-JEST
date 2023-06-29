@@ -1,10 +1,10 @@
-const fizzBuzz = () => {
+const fizzBuzz = (n) => {
    
-    for (let i = 1; i <= 15; i++) {
+    for (let i = 1; i <= n; i++) {
 
         if (i % 3 === 0 && i % 5 === 0) {
             console.log("FizzBuzz");
-            // return "FizzBuzz";
+            return "FizzBuzz";
         }
 
         else if (i % 3 === 0) {
@@ -24,6 +24,6 @@ const fizzBuzz = () => {
     }
 }
 
-fizzBuzz();
+fizzBuzz(15);
 
-// module.exports = { fizzBuzz };
+module.exports = { fizzBuzz };
