@@ -1,4 +1,4 @@
-# Kata-FizzBuzz-JEST
+# FizzBuzz-Kata-JEST
 
 Basic Fizz Buzz test.
 
